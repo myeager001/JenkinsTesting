@@ -1,0 +1,30 @@
+{
+  "name": "jenkins-test",
+  "version": "1.0.0",
+  "description": "testing gulp and mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myeager001/JenkinsTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myeager001/JenkinsTesting/issues"
+  },
+  "homepage": "https://github.com/myeager001/JenkinsTesting#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.3",
+    "mocha": "^2.5.3"
+  }
+}
